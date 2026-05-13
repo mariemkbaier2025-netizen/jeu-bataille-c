@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1776456176 source:c:\users\user\downloads\meriem kbaier jeu bataille\file.c
+	<stdlib.h>
+	"file.h"
+
+1776509286 c:\users\user\downloads\meriem kbaier jeu bataille\file.h
+	"carte.h"
+
+1776456176 c:\users\user\downloads\meriem kbaier jeu bataille\carte.h
+
+1776458841 source:c:\users\user\downloads\meriem kbaier jeu bataille\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"jeu.h"
+	"file.h"
+	"pile.h"
+
+1776509286 c:\users\user\downloads\meriem kbaier jeu bataille\jeu.h
+	"carte.h"
+
+1776509286 c:\users\user\downloads\meriem kbaier jeu bataille\pile.h
+	"carte.h"
+
+1776456176 source:c:\users\user\downloads\meriem kbaier jeu bataille\pile.c
+	<stdlib.h>
+	"pile.h"
+	"file.h"
+	"carte.h"
+
+1776458841 source:c:\users\user\downloads\meriem kbaier jeu bataille\jeu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"jeu.h"
+	"file.h"
+	"pile.h"
+
