@@ -160,6 +160,7 @@ void afficherRegles() {
     printf("   - Le gagnant prend tout le tas.\n");
     printf("5. Fin du jeu : un joueur n'a plus de cartes.\n");
     printf("==========================================================\n");
+    printf("Merci d'avoir joue ! Travail realise par Fatma et Mariem.\n");
     printf("\nAppuyez sur Entree...");
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
