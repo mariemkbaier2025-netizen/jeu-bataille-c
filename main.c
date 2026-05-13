@@ -30,6 +30,12 @@ void quitter();
 //MAIN
 int main() {
 
+    char nom1[50], nom2[50];
+printf("Entrez le nom du Joueur 1 : ");
+scanf("%s", nom1);
+printf("Entrez le nom du Joueur 2 : ");
+scanf("%s", nom2);
+
 // initialisation du générateur aléatoire (shuffle) - version 2    srand(time(NULL));
 
     int choix;
