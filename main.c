@@ -176,6 +176,7 @@ void quitter() {
     printf("\n==============================================\n");
     printf("          Au revoir Meriem et Fatma !           \n");
     printf("==============================================\n");
+    printf("  Merci d'avoir joue a notre jeu ! A bientot.  \n");
     Sleep(1500);
     exit(0);
 }
