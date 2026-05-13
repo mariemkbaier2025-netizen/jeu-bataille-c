@@ -38,7 +38,7 @@ int main() {
         system("cls"); // nettoyer écran
 
         // Titre du jeu
-        setColor(12);
+        setColor(10);
       printf("    \t==============================================\n");
        printf("           \t=== JEU DE LA BATAILLE ===\n");
        printf("   \t==============================================\n");
