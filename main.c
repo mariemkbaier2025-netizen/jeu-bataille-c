@@ -43,7 +43,7 @@ int main() {
        printf("           \t=== JEU DE LA BATAILLE ===\n");
        printf("   \t==============================================\n");
       setColor(11);
-       printf("\n \t************** LET'S GOOOOO!!!! **************\n");
+       printf("\n \t************** LET'S GOOOOO to enjoy the game!!!! **************\n");
        printf("   \t************** BY MERIEM KBAIER **************\n");
         setColor(9);
        printf(" \n\t=================== MENU =====================\n");
