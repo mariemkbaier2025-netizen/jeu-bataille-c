@@ -91,7 +91,7 @@ void lancerPartie() {
     distribuerCartes(&paquetInitial, &j1, &j2);
     int tour = 1;
     //boucle de jeu
-    while (j1.taille > 0 && j2.taille > 0 && tour <= 50) {
+    while (j1.taille > 0 && j2.taille > 0 && tour <= 100) {
         system("cls");
         setColor(11);
         printf("--- TOUR %d ---\n", tour++);
