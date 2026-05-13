@@ -137,6 +137,8 @@ void voirGagnant() {
         else
         printf("MATCH NUL ! (%d - %d)\n", j1.taille, j2.taille);
         printf("==============================================\n");
+        printf("Joueur 1 : %d cartes (%.1f%%)\n", j1.taille, (j1.taille/52.0)*100);
+         printf("Joueur 2 : %d cartes (%.1f%%)\n", j2.taille, (j2.taille/52.0)*100);
     }
     setColor(7);
     printf("\nAppuyez sur Entree pour continuer...");
