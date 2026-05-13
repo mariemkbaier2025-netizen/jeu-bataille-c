@@ -44,7 +44,7 @@ int main() {
        printf("   \t==============================================\n");
       setColor(11);
        printf("\n \t************** LET'S GOOOOO!!!! **************\n");
-       printf("   \t************** BY MERIEM KBAIER **************\n");
+       printf("   \t************** BY MERIEM ET FATMA **************\n");
         setColor(9);
        printf(" \n\t=================== MENU =====================\n");
        printf("   \t==============================================\n");
@@ -174,7 +174,7 @@ void quitter() {
     liberer_file(&j1);
     liberer_file(&j2);
     printf("\n==============================================\n");
-    printf("          Au revoir Meriem Kbaier !           \n");
+    printf("          Au revoir Meriem et Fatma !           \n");
     printf("==============================================\n");
     Sleep(1500);
     exit(0);
