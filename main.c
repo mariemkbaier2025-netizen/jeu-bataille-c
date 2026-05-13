@@ -30,8 +30,7 @@ void quitter();
 //MAIN
 int main() {
 
-    // initialisation du générateur aléatoire (shuffle)
-    srand(time(NULL));
+// initialisation du générateur aléatoire (shuffle) - version 2    srand(time(NULL));
 
     int choix;
 
