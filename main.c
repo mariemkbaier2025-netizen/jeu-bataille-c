@@ -30,6 +30,12 @@ void quitter();
 //MAIN
 int main() {
 
+    char nom1[50], nom2[50];
+printf("Entrez le nom du Joueur 1 : ");
+scanf("%s", nom1);
+printf("Entrez le nom du Joueur 2 : ");
+scanf("%s", nom2);
+
 // initialisation du générateur aléatoire (shuffle) - version 2    srand(time(NULL));
 
     int choix;
@@ -94,7 +100,7 @@ void lancerPartie() {
     distribuerCartes(&paquetInitial, &j1, &j2);
     int tour = 1;
     //boucle de jeu
-    while (j1.taille > 0 && j2.taille > 0 && tour <= 50) {
+    while (j1.taille > 0 && j2.taille > 0 && tour <= 100) {
         system("cls");
         setColor(11);
         printf("--- TOUR %d ---\n", tour++);
@@ -140,6 +146,8 @@ void voirGagnant() {
         else
         printf("MATCH NUL ! (%d - %d)\n", j1.taille, j2.taille);
         printf("==============================================\n");
+        printf("Joueur 1 : %d cartes (%.1f%%)\n", j1.taille, (j1.taille/52.0)*100);
+         printf("Joueur 2 : %d cartes (%.1f%%)\n", j2.taille, (j2.taille/52.0)*100);
     }
     setColor(7);
     printf("\nAppuyez sur Entree pour continuer...");
@@ -163,6 +171,7 @@ void afficherRegles() {
     printf("   - Le gagnant prend tout le tas.\n");
     printf("5. Fin du jeu : un joueur n'a plus de cartes.\n");
     printf("==========================================================\n");
+    printf("Merci d'avoir joue ! Travail realise par Fatma et Mariem.\n");
     printf("\nAppuyez sur Entree...");
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
