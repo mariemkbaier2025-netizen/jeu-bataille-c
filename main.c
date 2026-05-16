@@ -41,6 +41,7 @@ int main() {
         setColor(10);
       printf("    \t==============================================\n");
        printf("           \t=== JEU DE LA BATAILLE ===\n");
+       printf(" \n Bienvenue dans le Jeu de la Bataille!\n");
        printf("   \t==============================================\n");
       setColor(11);
 
