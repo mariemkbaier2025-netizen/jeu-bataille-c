@@ -38,13 +38,16 @@ int main() {
         system("cls"); // nettoyer écran
 
         // Titre du jeu
-        setColor(12);
+        setColor(10);
       printf("    \t==============================================\n");
        printf("           \t=== JEU DE LA BATAILLE ===\n");
        printf("   \t==============================================\n");
       setColor(11);
-       printf("\n \t************** LET'S GOOOOO to enjoy the game!!!! **************\n");
+
+       printf("\n \t************** LET'S GOOOOO to enjoy the game !!! \n");
        printf("   \t************** BY MERIEM KBAIER **************\n");
+       printf("\n \t************** LET'S GOOOOO!!!! **************\n");
+       printf("   \t************** BY MERIEM ET FATMA **************\n");
         setColor(9);
        printf(" \n\t=================== MENU =====================\n");
        printf("   \t==============================================\n");
@@ -174,8 +177,9 @@ void quitter() {
     liberer_file(&j1);
     liberer_file(&j2);
     printf("\n==============================================\n");
-    printf("          Au revoir Meriem Kbaier !           \n");
+    printf("          Au revoir Meriem et Fatma !           \n");
     printf("==============================================\n");
+    printf("  Merci d'avoir joue a notre jeu ! A bientot.  \n");
     Sleep(1500);
     exit(0);
 }
