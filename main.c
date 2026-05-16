@@ -51,7 +51,7 @@ int main() {
         setColor(9);
        printf(" \n\t=================== MENU =====================\n");
        printf("   \t==============================================\n");
-        printf("  \t1. Lancer une nouvelle partie\n");
+        printf("  \t1. Lancer une nouvelle partie pour jouer\n");
         printf("  \t2. Afficher les regles du jeu\n");
          printf(" \t3. Voir le gagnant du dernier jeu\n");
           printf(" \t0. Quitter le programme\n");
